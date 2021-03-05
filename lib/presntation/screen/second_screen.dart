@@ -36,7 +36,7 @@ class SecondScreen extends StatelessWidget {
             SizedBox(height: 10),
             ElevatedButton(
               onPressed: () {},
-              child: Text('go to Second Screen'),
+              child: Text('go to third Screen'),
             )
           ],
         ),

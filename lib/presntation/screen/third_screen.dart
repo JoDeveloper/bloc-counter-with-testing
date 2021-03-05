@@ -33,11 +33,6 @@ class ThirdScreen extends StatelessWidget {
                 );
               },
             ),
-            SizedBox(height: 10),
-            ElevatedButton(
-              onPressed: () {},
-              child: Text('go to thir Screen'),
-            )
           ],
         ),
       ),
