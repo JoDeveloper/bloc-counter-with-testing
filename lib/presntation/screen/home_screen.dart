@@ -21,6 +21,7 @@ class HomeScreen extends StatelessWidget {
             BlocConsumer<CounterCubit, CounterState>(
               listenWhen: (_, state) => state.wasIncremeted,
               listener: (context, state) {
+                // ignore: deprecated_member_use
                 Scaffold.of(context).showSnackBar(SnackBar(
                   content: Text('Incremeted!'),
                   duration: const Duration(milliseconds: 300),
